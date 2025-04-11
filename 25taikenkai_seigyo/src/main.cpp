@@ -1,9 +1,11 @@
 #include <Arduino.h>
 
-void setup(){
+String mozi = "Hello World";
 
+void setup(){
+  Serial.begin(115200);
 }
 
 void loop() {
-
+  Serial.println(mozi);
 }
