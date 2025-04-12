@@ -1,11 +1,24 @@
 #include <Arduino.h>
 
-String mozi = "Hello World";
+int number = 1; 
 
 void setup(){
-  Serial.begin(115200);
+  //なにか（空欄でもいい）
+
 }
 
-void loop() {
-  Serial.println(mozi);
+String mozi = "こんにちわ";
+
+void loop(){
+  Serial.println("mozi : " + String(number));
+  number = number + 1;
+  delay(500);
+
 }
+
+
+
+
+
+
+
