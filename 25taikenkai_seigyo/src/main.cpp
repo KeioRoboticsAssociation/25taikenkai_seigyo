@@ -1,21 +1,19 @@
 #include <Arduino.h>
-
-int number = 1; 
-
+int i=0;
 void setup(){
-  //なにか（空欄でもいい）
-
+  pinMode(PA0,OUTPUT);
+  pinMode(PA1,OUTPUT);
 }
-
-String mozi = "こんにちわ";
 
 void loop(){
-  Serial.println("mozi : " + String(number));
-  number = number + 1;
-  delay(500);
-
+  if (i==0[i=i+1
+  ])
+  {if (i==255)
+  i=0;}
+    digitalWrite(PA0,HIGH);
+    analogWrite(PA1,i);
+  delay(10);
 }
-
 
 
 
